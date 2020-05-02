@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS | Momentum</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Momentum</h1>
+    </header>
+    <main>
+      <div class="js-clock clock">
+        <h1 class="js-clock_text clock_text">
+          00:00
+        </h1>
+      </div>
+      <div class="user_box">
+        <form class="js-user unshowing">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+        <div class="user_box">
+          <span class="js-greeting greeting unshowing"></span>
+        </div>
+      </div>
+      <div class="js-toDo_box toDo_box unshowing">
+        <form class="js-toDo">
+          <input type="text" placeholder="Write to Do-List" />
+        </form>
+        <table>
+          <tr>
+            <th>ToDo</th>
+            <th>Finished</th>
+          </tr>
+          <tr>
+            <td><ul class="js-toDo_ul toDoUL"></ul></td>
+            <td><ul class="js-fin_ul finUL"></ul></td>
+          </tr>
+        </table>
+      </div>
+      <div class="weather">
+        <span class="js-temp"></span><span class="js-city"></span>
+      </div>
+    </main>
+    <footer>
+      <span class="js-footer footer">JaeHeong 2020</span>
+      <span class="copyRight footer"> &copy;</span>
+    </footer>
+    <script src="./JS/clock.js"></script>
+    <script src="./JS/user.js"></script>
+    <script src="./JS/toDo.js"></script>
+    <script src="./JS/weather.js"></script>
+    <script src="./JS/bg.js"></script>
+  </body>
+</html>
